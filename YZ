@@ -1,0 +1,17 @@
+int mutlak(int h)
+        {
+            if (h < 0)
+            {
+                return (h * (-1));
+            }
+            else
+            {
+                if (h > 0)
+                {
+                    return h;
+                }
+                else
+                {
+                    return -1;
+                }
+            }
